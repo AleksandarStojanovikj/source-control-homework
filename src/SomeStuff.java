@@ -4,9 +4,11 @@ public class SomeStuff {
     private final int MULTIPLIER = 31;
     private final String HOMEWORK_STRING = "HOMEWORK";
     private int someNumber;
+    private String someString;
 
-    public SomeStuff(int someNumber) {
+    public SomeStuff(int someNumber, String someString) {
         this.someNumber = someNumber;
+        this.someString = someString;
     }
 
     public void printSomething() {
@@ -19,6 +21,14 @@ public class SomeStuff {
 
     public void setSomeNumber(int someNumber) {
         this.someNumber = someNumber * MULTIPLIER;
+    }
+
+    public String getSomeString() {
+        return someString;
+    }
+
+    public void setSomeString(String someString) {
+        this.someString = someString;
     }
 
     public void printLocalDateTime() {
