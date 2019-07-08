@@ -24,4 +24,8 @@ public class SomeStuff {
     public void printLocalDateTime() {
         System.out.println(LocalDateTime.now());
     }
+
+    public void getCurrentMonth() {
+        System.out.println(LocalDateTime.now().getMonth());
+    }
 }
