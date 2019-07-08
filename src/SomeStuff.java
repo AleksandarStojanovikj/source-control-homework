@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class SomeStuff {
     private final int MULTIPLIER = 31;
     private final String HOMEWORK_STRING = "HOMEWORK";
@@ -17,5 +19,9 @@ public class SomeStuff {
 
     public void setSomeNumber(int someNumber) {
         this.someNumber = someNumber * MULTIPLIER;
+    }
+
+    public void printLocalDateTime() {
+        System.out.println(LocalDateTime.now());
     }
 }
