@@ -1,4 +1,5 @@
 public class SomeStuff {
+    private final int MULTIPLIER = 31;
     private final String HOMEWORK_STRING = "HOMEWORK";
     private int someNumber;
 
@@ -15,6 +16,6 @@ public class SomeStuff {
     }
 
     public void setSomeNumber(int someNumber) {
-        this.someNumber = someNumber;
+        this.someNumber = someNumber * MULTIPLIER;
     }
 }
