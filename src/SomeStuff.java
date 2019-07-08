@@ -3,11 +3,11 @@ import java.time.LocalDateTime;
 public class SomeStuff {
     private final int MULTIPLIER = 31;
     private final String HOMEWORK_STRING = "HOMEWORK";
-    private int someNumber;
+    private int userNumber;
     private String someString;
 
-    public SomeStuff(int someNumber, String someString) {
-        this.someNumber = someNumber;
+    public SomeStuff(int userNumber, String someString) {
+        this.userNumber = userNumber;
         this.someString = someString;
     }
 
@@ -15,12 +15,12 @@ public class SomeStuff {
         System.out.println(HOMEWORK_STRING);
     }
 
-    public int getSomeNumber() {
-        return someNumber;
+    public int getUserNumber() {
+        return userNumber;
     }
 
-    public void setSomeNumber(int someNumber) {
-        this.someNumber = someNumber * MULTIPLIER;
+    public void setUserNumber(int userNumber) {
+        this.userNumber = userNumber * MULTIPLIER;
     }
 
     public String getSomeString() {
