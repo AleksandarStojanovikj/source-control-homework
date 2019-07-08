@@ -9,4 +9,12 @@ public class SomeStuff {
     public void printSomething() {
         System.out.println(HOMEWORK_STRING);
     }
+
+    public int getSomeNumber() {
+        return someNumber;
+    }
+
+    public void setSomeNumber(int someNumber) {
+        this.someNumber = someNumber;
+    }
 }
